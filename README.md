@@ -2,7 +2,7 @@
 
 🔍 **Visão Geral**
 
-A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** diretamente em postos de combustíveis, e utilizados **para consumo interno** da empresa (ex: abastecimento de veículos próprios), **não é operação de revenda**, mas sim de **consumo**, e deve ser corretamente classificada para evitar falhas fiscais.
+A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV**, diretamente em postos de combustíveis e utilizados **para consumo interno** da empresa (ex: abastecimento de veículos próprios), **não caracteriza revenda**, e sim **uso/consumo**. A escrituração correta evita autuações fiscais e inconsistências no SPED.
 
 ---------------
 
@@ -12,8 +12,11 @@ A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** di
 
 | **CFOP**	| **Descrição**	| **Quando usar** |
 |------------|-----------------|--------------|
-| 1556 |	Compra de combustíveis ou lubrificantes para consumo |	Quando adquirido dentro do estado |
-| 2556 | Idem, porém para aquisições de fora do estado	| Interestadual (raro em postos) |
+| 1653 | Compra de combustível por consumidor final | ✅ Mais apropriado para empresas que abastecem em postos, com ICMS-ST já retido |
+| 1556 |	Compra de combustíveis ou lubrificantes para consumo |Alternativa válida (uso genérico) |
+| 2556 | Idem, porém para aquisições de fora do estado	| Uso raro em compras interestaduais |
+
+>💡 **Recomendação:** O **CFOP 1653** é o mais indicado quando o combustível é adquirido diretamente em posto com NF sem destaque de ICMS.
 
 🔹 **CST ICMS (Regime Normal)**
 
@@ -40,6 +43,7 @@ A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** di
 - **ICMS:** Já retido por substituição tributária (não há destaque).
 
 - **PIS/COFINS:** Pode ou não estar destacado — depende da operação e NCM.
+  
 ----------------
 
 🧾 **Observações importantes**
@@ -49,6 +53,9 @@ A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** di
 - Se a empresa estiver no **regime não cumulativo**, poderá **tomar crédito de PIS/COFINS se o combustível for insumo vinculado à atividade-fim** (ex: transportadora, construção pesada).
 
 - O combustível **deve ser lançado como consumo**, e não como mercadoria para revenda.
+  
+- Em notas de compra, confira sempre o CFOP e CST utilizados.
+  
 ---------------
 
 📤 **Saídas – Quando aplicável**
@@ -63,6 +70,7 @@ Normalmente, **não há saída fiscal** para consumo próprio. Mas se houver aju
 - **CST ICMS:** 060 ou 061 (mantém ST)
 
 - **Sem destaque de ICMS ou PIS/COFINS**
+  
 ---------------
 
 🧾 **Exemplo prático – Compra de Diesel em posto**
@@ -71,12 +79,25 @@ Normalmente, **não há saída fiscal** para consumo próprio. Mas se houver aju
 |------------|-----------------|
 | Produto	| Óleo Diesel S10 |
 | NCM	| 2710.19.21 |
-| CFOP	| 1556 |
-| CST ICMS	| 060 |
-| CST PIS/COFINS	| 01 |
+| CFOP	| 1653 |
+| CST ICMS	| 061 |
+| CST PIS/COFINS	| 04 ou 70 |
 | Crédito ICMS	| ❌ Não permitido |
 | Crédito PIS/COFINS	| ✅ Permitido se insumo e regime não cumulativo |
 | Finalidade	| Abastecimento de frota própria |
+
+---------------------------
+
+📌 **CFOP 1556 vs 1653 – Qual usar?**
+
+| CFOP	| Descrição	Quando usar |
+|------------|-----------------|
+| 1556	| Compra de combustível para consumo	| Nota com ICMS-ST, uso interno |
+| 1653	| Compra por consumidor final	| Mais preciso para consumo em frota própria |
+
+> ✅ Ambos são aceitos, mas o **1653** é o mais **adequado e específico** para compra direta em posto.
+
+---------------------
 
 📜 **Base legal**
 
@@ -92,20 +113,26 @@ Normalmente, **não há saída fiscal** para consumo próprio. Mas se houver aju
 - **Lei Kandir – LC 87/96:**
   - Art. 20, §1º: veda crédito de ICMS sobre bens e serviços de uso ou consumo
 
+---------------------
+
 ✅ **Checklist para escrituração correta**
 
-- ☑️Verificar se a NF vem com CFOP 5656 (remessa) ou 5556 (venda direta)
-
-- ☑️Lançar com CFOP 1556 no SPED Fiscal
+- ☑️Verificar CFOP da NF (preferência: 1653)
 
 - ☑️Usar CST ICMS 060 ou 061
 
-- ☑️Validar se há crédito de PIS/COFINS (regime não cumulativo)
+- ☑️Validar CST PIS/COFINS (geralmente 04, 70 ou 73)
+
+- ☑️Classificar **como uso/consumo**
+
+- ☑️Conferir se há direito a crédito de PIS/COFINS (caso insumo + regime não cumulativo)
 
 - ☑️Não considerar ICMS como recuperável
 
+------------------------
+
 ### Conclusão
 
-A compra de combustível em posto para uso interno deve ser lançada com CFOP 1556, CST ICMS 060 ou 061 (ICMS-ST), sem direito a crédito de ICMS. O crédito de PIS/COFINS pode ser permitido se a empresa estiver no regime não cumulativo e o combustível for considerado insumo essencial à atividade. A correta classificação evita autuações e garante conformidade fiscal.
+A compra de combustível para uso interno (frota, geradores, empilhadeiras etc.) deve ser tratada como consumo, com CFOP 1653 e CST ICMS 060 ou 061. O crédito de PIS/COFINS é possível apenas em casos específicos (regime não cumulativo + insumo essencial). Evite o uso indevido de CST 50 e CFOPs de revenda. A correta escrituração fiscal é essencial para manter a conformidade e evitar passivos tributários.
 
 🖊️***Elaborado pelo colaborador:*** Wellington Daniel
