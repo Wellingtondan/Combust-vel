@@ -26,7 +26,7 @@ A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** di
 
 🔹 **CST PIS/COFINS**
 
-CST	Descrição Resumida	Uso em Combustíveis
+| CST	| Descrição Resumida	| Uso em Combustíveis|
 |------------|------------|-----------------|
 | 04	| Monofásico com revenda a alíquota zero	| ✅ Entrada de produto monofásico |
 | 49	| Outras operações de saída	| ✅ Saída sem crédito (revenda) |
