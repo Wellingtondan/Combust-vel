@@ -3,6 +3,7 @@
 🔍 **Visão Geral**
 
 A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** diretamente em postos de combustíveis, e utilizados **para consumo interno** da empresa (ex: abastecimento de veículos próprios), **não é operação de revenda**, mas sim de **consumo**, e deve ser corretamente classificada para evitar falhas fiscais.
+
 ---------------
 
 🧾 **Entradas de Combustível – Uso Interno**
