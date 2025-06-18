@@ -26,11 +26,14 @@ A aquisição de combustíveis como **óleo diesel, gasolina, etanol ou GNV** di
 
 🔹 **CST PIS/COFINS**
 
-| **CST**	| **Descrição** |
-|------------|-----------------|
-| 01 / 02	 | Tributado com direito a crédito (regime não cumulativo)  |
-| 50 / 70 |	Alíquota zero ou isenta (caso do monofásico em alguns combustíveis) |
-| 98 / 99	 | Outras situações – avaliar conforme NCM e legislação vigente |
+CST	Descrição Resumida	Uso em Combustíveis
+|------------|------------|-----------------|
+| 04	| Monofásico com revenda a alíquota zero	| ✅ Entrada de produto monofásico |
+| 49	| Outras operações de saída	| ✅ Saída sem crédito (revenda) |
+| 70	| Aquisição sem direito a crédito	| ✅ Entrada sem crédito |
+| 73	| Aquisição com alíquota zero	| ✅ Entrada com alíquota zero sem direito a crédito |
+| 50	| Com direito a crédito (⚠️ não usar em combustíveis)	| ⚠️ Alerta de uso indevido |
+| 98/99	| Outras operações de entrada/saída	| ⚠️ Só usar com embasamento técnico |
 
 🔹 **Destaques na NF-e**
 
